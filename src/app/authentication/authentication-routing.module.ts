@@ -47,10 +47,10 @@ const routes: Routes = [
         }
     },
     {
-        path: 'sign-up-3',
+        path: 'sign-up',
         component: SignUp3Component,
         data: {
-            title: 'Sign Up 2'
+            title: 'Sign Up'
         }
     },
     {

@@ -5,6 +5,7 @@ export const CommonLayout_ROUTES: Routes = [
     {
         path: 'admin',
         loadChildren: () => import('../../dashboard/dashboard.module').then(m => m.DashboardModule),
+        canActivate: [AuthGuard],
 
     }
 ];
